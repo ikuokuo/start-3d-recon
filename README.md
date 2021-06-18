@@ -6,6 +6,12 @@
 
 可微渲染通过计算渲染过程的导数，使得从单张图片学习三维结构逐渐成为现实。可微渲染目前被广泛地应用于三维重建，特别是人体重建、人脸重建和三维属性估计等应用中。
 
+了解：
+
+- [什么是可微分渲染（differentiable rendering）](https://www.zhihu.com/question/364770565/answer/1266067986)
+
+技术：
+
 - [SoftRas](docs/softras.md)
 
 ## 参考
@@ -38,6 +44,7 @@
   - [3D Object Reconstruction from 2D Image](https://paperswithcode.com/task/3d-object-reconstruction)
     - 2020 Pix2Vox++: [Paper](https://arxiv.org/abs/2006.12250), [Code](https://gitlab.com/hzxie/Pix2Vox)
     - 2019 SoftRas: [Paper](https://arxiv.org/abs/1904.01786), [Code](https://github.com/ShichenLiu/SoftRas)
+  - [PyTorch3D](https://pytorch3d.org/)
 
 <!--
 - [Computer Vision and Pattern Recognition](https://arxiv.org/list/cs.CV/recent)
