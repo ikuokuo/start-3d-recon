@@ -7,8 +7,12 @@ import torch
 import tqdm
 
 import soft_renderer.functional as srf
-from softras import models, models_large
-from softras.utils import img_cvt
+try:
+  from softras import models, models_large
+  from softras.utils import img_cvt
+except ImportError:
+  import models, models_large
+  from utils import img_cvt
 
 
 ## arguments
